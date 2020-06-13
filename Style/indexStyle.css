@@ -1,5 +1,12 @@
-p
+/*Elements*/
+#description-of-myself
 {
-	color:white;
-	background-color:gray;
+	color:orange;
+}
+
+/*Class*/
+.intro-title
+{
+	color:green;
+	font:consolas;
 }
