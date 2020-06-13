@@ -1,6 +1,6 @@
 body
 {
-	background-color:rgba(39, 48, 67, 0.85);
+	background-color:rgba(39, 48, 67, 0.91);
 }
 
 /*General tags style*/
@@ -18,11 +18,16 @@ p
 {
 	color:#EBEBEB;
 	font-weight:500;
+	letter-spacing:2px;
+	word-spacing:5px;
+
 }
 
 a
 {
 	color:#98DFAF;
+	letter-spacing:2px;
+	word-spacing:5px;
 }
 
 /*Elements*/
