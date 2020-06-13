@@ -1,19 +1,36 @@
 body
 {
-	background-color:#273043;
+	background-color:rgba(39, 48, 67, 0.85);
 }
 
+/*General tags style*/
 h1
 {
+	color:#EBEBEB;
+}
+
+h3
+{	
 	color:#EBEBEB;
 }
 
 p
 {
 	color:#EBEBEB;
+	font-weight:500;
+}
+
+a
+{
+	color:#98DFAF;
 }
 
 /*Elements*/
+#pablo-corbalan
+{
+	font-weight:600;
+}
+
 #description-of-myself
 {
 	color:#DEEFB7;
