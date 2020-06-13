@@ -1,8 +1,3 @@
-body
-{
-	background-color:rgba(39, 48, 67, 0.91);
-}
-
 /*General tags style*/
 h1
 {
@@ -21,6 +16,9 @@ p
 	letter-spacing:2px;
 	word-spacing:5px;
 
+	/*Borders*/
+	padding:10px; 
+	border:5px solid #5FB49C;
 }
 
 a
@@ -31,18 +29,34 @@ a
 }
 
 /*Elements*/
+#pablo-corbalan-div
+{
+	padding:10px;
+}
+
+}
 #pablo-corbalan
 {
 	font-weight:600;
+	padding:10px;
 }
 
 #description-of-myself
 {
 	color:#DEEFB7;
+	letter-spacing:3px;
+	word-spacing:6px;
 }
 
 /*Class*/
 .intro-title
 {
 	color:#5FB49C;
+	letter-spacing:3px;
+	word-spacing:6px;
+}
+
+body
+{
+	background-color:rgba(39, 48, 67, 0.91);
 }
