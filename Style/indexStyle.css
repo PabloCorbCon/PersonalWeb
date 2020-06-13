@@ -1,12 +1,26 @@
+body
+{
+	background-color:#273043;
+}
+
+h1
+{
+	color:#EBEBEB;
+}
+
+p
+{
+	color:#EBEBEB;
+}
+
 /*Elements*/
 #description-of-myself
 {
-	color:orange;
+	color:#DEEFB7;
 }
 
 /*Class*/
 .intro-title
 {
-	color:green;
-	font:consolas;
+	color:#5FB49C;
 }
