@@ -1,47 +1,86 @@
-Number of compounds: 5
+Number of compounds: 4
 
 Green tones
 {
-	Tea Green
+	Viridian Green
 	{
-		HEX: DEEFB7
-		RGB: 222, 239, 183
-		HSB: 78, 23, 94
-	}
+		HEX: 2f9c95
+		RGB: 47, 156, 149
+		HSB: 176, 70, 61
 
-	Celadon
-	{
-		HEX: 98DFAF
-		RGB: 152, 223, 175
-		HSB: 139, 32, 87
-	}
-
-	Keppel
-	{
-		HEX: 5FB49C
-		RGB: 95, 180, 156
-		HSB: 163, 47, 71
+		HUE: 1
 	}
 }
 
-Blue tones
+Brown tones
 {
-	Space cadet
+	Dust
 	{
-		HEX: 273043
-		RGB: 39, 48, 67
-		HSB: 221, 42, 26
+		HEX: a44200
+		RGB: 164, 66, 0
+		HSB: 24, 100, 64
 
-		int: 0.91
+		HUE: 1
+	}
+
+	Beige
+	{
+		HEX: ebebd3
+		RGB: 235, 235, 211
+		HSB: 60, 10, 92
+
+		HUE: 1
+	}
+
+	Orange Yellow Crayola
+	{
+		HEX: f4d35e
+		RGB: 244, 211, 94
+		HSB: 47, 61, 96
+
+		HUE: 1
+	}
+}
+Number of compounds: 4
+
+Green tones
+{
+	Viridian Green
+	{
+		HEX: 2f9c95
+		RGB: 47, 156, 149
+		HSB: 176, 70, 61
+
+		HUE: 1
 	}
 }
 
-Brown colors
+Brown tones
 {
-	Bistre
+	Dust
 	{
-		HEX: 2E1E0F
-		RGB: 46, 30, 15
-		HSB: 29, 67, 18
+		HEX: a44200
+		RGB: 164, 66, 0
+		HSB: 24, 100, 64
+
+		HUE: 1
+	}
+
+	Beige
+	{
+		HEX: ebebd3
+		RGB: 235, 235, 211
+		HSB: 60, 10, 92
+
+		HUE: 1
+	}
+
+	Orange Yellow Crayola
+	{
+		HEX: f4d35e
+		RGB: 244, 211, 94
+		HSB: 47, 61, 96
+
+		HUE: 1
 	}
 }
