@@ -1,14 +1,14 @@
 /*General tags style*/
 h1
 {
-	color:#ebebd3;
+	color:#44A12B;
 
 	font-size:5em;
 }
 
 h3
 {	
-	color:#2f9c95;
+	color:#343434;
 
 	font-size:2.2em;
 	font-family:monospace;
@@ -19,7 +19,7 @@ h3
 
 p
 {
-	color:#ffffff;
+	color:#686868;
 
 	font-weight:600;
 	font-family:monospace;
@@ -35,7 +35,7 @@ p
 
 a
 {
-	color:#f4d35e;
+	color:#82C502;
 
 	letter-spacing:2px;
 	word-spacing:5px;
@@ -85,7 +85,7 @@ a
 /*Class*/
 .intro-title
 {
-	color:#5FB49C;
+	color:#09A082;
 
 	font-size:2.2em;
 	font-family:monospace;
@@ -96,5 +96,5 @@ a
 
 body
 {
-	background-color:rgba(8, 61, 119 , 1);
+	background-color:rgba(255,255,255,1);
 }
