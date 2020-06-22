@@ -1,0 +1,100 @@
+/*General tags style*/
+h1
+{
+	color:#44A12B;
+
+	font-size:5em;
+}
+
+h3
+{	
+	color:#343434;
+
+	font-size:2.2em;
+	font-family:monospace;
+
+	letter-spacing:2px;
+	word-spacing:5px;
+}
+
+p
+{
+	color:#686868;
+
+	font-weight:600;
+	font-family:monospace;
+	font-size:1.8em;
+
+	letter-spacing:2px;
+	word-spacing:5px;
+
+	/*Borders*/
+	padding:10px; 
+	border:3px solid #ebebd3;
+}
+
+a
+{
+	color:#82C502;
+
+	letter-spacing:2px;
+	word-spacing:5px;
+
+	font-size:1.8em;
+	font-family:monospace;
+
+	padding:10px;
+}
+
+/*Elements*/
+#pablo-corbalan-div
+{
+	padding:10px;
+
+	font-weight:800;
+	padding:10px;
+
+	letter-spacing:8px;
+	word-spacing:10px;
+
+	font-family:monospace;
+
+}
+
+#pablo-corbalan
+{
+	font-weight:800;
+	padding:10px;
+
+	letter-spacing:8px;
+	word-spacing:10px;
+
+	font-family:monospace;
+}
+
+#description-of-myself
+{
+	color:#DEEFB7;
+	letter-spacing:3px;
+	word-spacing:6px;
+
+	letter-spacing:5px;
+	word-spacing:7px;
+}
+
+/*Class*/
+.intro-title
+{
+	color:#09A082;
+
+	font-size:2.2em;
+	font-family:monospace;
+
+	letter-spacing:5px;
+	word-spacing:7px;
+}
+
+body
+{
+	background-color:rgba(255,255,255,1);
+}
