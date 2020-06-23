@@ -17,9 +17,8 @@ from django.contrib import admin
 from django.urls import path
 
 #importing views
-from views.main import index
+from main import index
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('pablocorbcon/', index)
 ]
