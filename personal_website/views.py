@@ -11,7 +11,7 @@ def main_page(request):
 	is created in a Context object and html is the final view, the ptx object
 	after calling the .render() method with ctx as argument.'''
 
-	doc = open('structure/index.html')
+	doc = open('C:/Users/sedwi/Desktop/Programas/python/django/personal_website/personal_website/structure/index.html')
 
 	ptx = Template(doc.read())
 
