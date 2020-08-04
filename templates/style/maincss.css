@@ -9,7 +9,7 @@ a {
     font-family: "Lato";
 }
 h1 {
-    font-size: 2.8em;
+    font-size: 5em;
     padding: 10px 0;
     font-weight: 850;
 }
@@ -19,7 +19,7 @@ h4 {
     font-weight:550;
 }
 p {
-    font-size: 1.1em;
+    font-size: 1.7em;
     font-weight: 100;
     letter-spacing: 5px;
 }
@@ -27,13 +27,13 @@ p {
     width: 100%;
     padding: 60px 0;
     text-align: center;
-    background: #33cccc;
+    background: #1BE88F;
     color: white;
 }
 .round-button{
     font-size: 20px;
     display: inline-block;
-    border: 1px solid white;
+    border: 3px solid white;
     padding: 10px 20px;
     border-radius: 10px;
     cursor: pointer;
@@ -43,4 +43,44 @@ p {
 .round-button:hover {
     background-color: white;
     color: #33cccc;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding-top: 50px;
+    padding: 15px;
+    width: 28%;
+    height: 20em;
+    font-family: "Lato";
+    border-radius:7px;
+}
+.main.text {
+    padding: 15px;
+}
+}
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+}
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+.card-project-bg {
+    background: #C287DA;
+    padding-bottom: 5px;
+    height:10em;
+}
+.card-b-text {
+    font-size: 2.4em;
+}
+.card-subtext {
+    font-size: 1em;
+}
+
+#best-projects-title{
+    font-family: "Lato";
+    font-size: 4em;
+    color: #1BE88F;
 }
