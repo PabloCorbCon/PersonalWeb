@@ -1,27 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<!--meta tags-->
-		<meta charset="UTF-8">
-		<title>pablocorbcon</title>
-		<!--style-->
-		<link rel="stylesheet" type="text/css" href="style/maincss.css">
-	</head>
-	<body>
-		<!--banner-->
-		<div>
-			<section class="banner">
-				<h1>Pablo Corbalán</h1>
-				<p>Python developer</p>
-				<a class="round-button">Contact me</a>
-			</section>
-		<!--cards-->
-		<div class="card">
-			<div class="container">
-				<div class="card-bg"></div>
-		   		<h4 class="card-b-text"><b>Stork</b></h4>
-		   		<p class="card-subtext">Online files manager</p>
-		  	</div>
-		</div>
-	</body>
-</html>
+{% extends layout.html %}
+
+{% block typeofstyle %}
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
+{% endblock typeofstyle %}
+
+{% block container %}
+	<!--banner-->
+	<div>
+		<section class="banner">
+			<h1>Pablo Corbalán</h1>
+			<p>Python developer</p>
+			<a class="round-button">Contact me</a>
+		</section>
+	<!--cards-->
+	{{ for project in projects }}
+	<div class="card">
+		<div class="container">
+			<div class="card-bg"></div>
+	   		<h4 class="card-b-text"><b>Stork</b></h4>
+	   		<p class="card-subtext">Online files manager</p>
+	  	</div>
+	</div>
+{% endblock container %}
