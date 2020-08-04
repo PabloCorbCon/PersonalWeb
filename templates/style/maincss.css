@@ -33,14 +33,17 @@ p {
 
 /*Create a menu using the class menu and different IDs*/
 .menu {
+    overflow: hidden;
+    background-color: #FFF;
+    top:0;
+    width:100%;
     position:fixed;
-    background: #FFF;
 }
-.menu-logo {
-    padding:10px;
-    width:1em;
+.menu-links {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 5px;
 }
-
 
 
 /*Create a banner for our page*/
@@ -48,8 +51,8 @@ p {
     width: 100%;
     padding: 60px 0;
     text-align: center;
-    background: #1BE88F;
-    color: white;
+    background-color: #FFF;
+    color:#1BE88F;
 }
 
 .round-button{
@@ -63,8 +66,8 @@ p {
     margin-top: 30px;
 }
 .round-button:hover {
-    background-color: white;
-    color: #33cccc;
+    background-color: #1BE88F;
+    color: #FFF;
 }
 
 
