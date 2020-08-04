@@ -14,11 +14,12 @@
 		</section>
 	<!--cards-->
 	{{ for project in projects }}
-	<div class="card">
-		<div class="container">
-			<div class="card-bg"></div>
-	   		<h4 class="card-b-text"><b>Stork</b></h4>
-	   		<p class="card-subtext">Online files manager</p>
-	  	</div>
-	</div>
+		<div class="card">
+			<div class="container">
+				<div class="card-bg"></div>
+		   		<h4 class="card-b-text"><b>post.title</b></h4>
+		   		<p class="card-subtext">post.short_description</p>
+		  	</div>
+		</div>
+	{% endfor %}
 {% endblock container %}
