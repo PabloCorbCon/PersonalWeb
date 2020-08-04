@@ -19,7 +19,7 @@ projects = [
 ]
 
 @app.route('/')
-def main_page():
+def home():
 
 	return render_template('main.html', projects=projects)
 
