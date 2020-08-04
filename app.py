@@ -3,7 +3,7 @@ from flask import Flask, render_template, url_for
 
 app = Flask(__name__)
 
-posts = [
+projects = [
 	{
 		'title':'Stork',
 		'short_description':'Online local files manager'
@@ -21,7 +21,7 @@ posts = [
 @app.route('/')
 def main_page():
 
-	return render_template('main.html', posts=posts)
+	return render_template('main.html', projects=projects)
 
 if __name__ == '__main__':
 	
