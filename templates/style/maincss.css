@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400, 300, 100, 700, 900);
 
+/*
+Here we create the default properties for all
+our html document.
+*/
 h1,
 h4,
 p,
@@ -24,6 +28,21 @@ p {
     font-weight: 100;
     letter-spacing: 5px;
 }
+
+
+
+/*Create a menu using the class menu and different IDs*/
+.menu {
+    position:fixed;
+    color:red;
+}
+.menu-logo {
+    hpadding:10px;
+}
+
+
+
+/*Create a banner for our page*/
 .banner {
     width: 100%;
     padding: 60px 0;
@@ -31,6 +50,7 @@ p {
     background: #1BE88F;
     color: white;
 }
+
 .round-button{
     font-size: 20px;
     display: inline-block;
@@ -45,6 +65,12 @@ p {
     background-color: white;
     color: #33cccc;
 }
+
+
+/*
+Here we store the best projects using the CSS
+card model
+*/
 .card {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -60,12 +86,10 @@ p {
 .main.text {
     padding: 15px;
 }
-
 /* On mouse-over, add a deeper shadow */
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.35);
 }
-
 /* Add some padding inside the card container */
 .container {
     padding: 2px 16px;
