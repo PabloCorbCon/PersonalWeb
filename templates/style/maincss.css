@@ -34,10 +34,11 @@ p {
 /*Create a menu using the class menu and different IDs*/
 .menu {
     position:fixed;
-    color:red;
+    background: #FFF;
 }
 .menu-logo {
-    hpadding:10px;
+    padding:10px;
+    width:1em;
 }
 
 
