@@ -12,11 +12,20 @@
 		<title>pablocorbcon</title>
 		{% endif %}
 
-		<!--style-->
-		{% block typeofstyle %}
-		{% endblock %}
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+	    
 	</head>
 	<body>
+		<div class="site-menu">
+			<nav class="site-menu-navigation-bar">
+				<div class="site-menu-navigation-bar-image-left">
+					
+				</div>
+				<div class="site-menu-navigation-bar-links">
+					
+				</div>
+			</nav>
+		</div>
 		<div class="container-block">
 			{% block container %}
 			{% endblock %}

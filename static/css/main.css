@@ -4,10 +4,7 @@
 Here we create the default properties for all
 our html document.
 */
-h1,
-h4,
-p,
-a {
+h1, h2, h3, h4, h5, h6, p, a {
     margin: 0;
     padding: 0;
     font-family: "Lato";
@@ -31,19 +28,13 @@ p {
 
 
 
-/*Create a menu using the class menu and different IDs*/
-.menu {
+/*Create a menu using the class site-menu and different IDs*/
+.site-menu {
     overflow: hidden;
-    background-color: #FFF;
+    background-color: #0FF;
     top:0;
     width:100%;
     position:fixed;
-}
-.menu-links {
-    padding-right: 10px;
-    padding-left: 10px;
-    margin: 5px;
-    float: right;
 }
 
 
