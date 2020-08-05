@@ -7,17 +7,19 @@
 		
 		<!--create the title depending in a subtitle-->
 		{% if title %}
-		<title>Flask Blog - {{ title }}</title>
+		<title>pablocorbcon - {{ title }}</title>
 		{% else %}
-		<title>Flask Blog</title>
+		<title>pablocorbcon</title>
 		{% endif %}
 
 		<!--style-->
-		{% block typeofstyle %}{% endblock %}
+		{% block typeofstyle %}
+		{% endblock %}
 	</head>
 	<body>
 		<div class="container-block">
-			{% block container %}{% endblock %}
+			{% block container %}
+			{% endblock %}
 		</div>
 	</body>
 </html>
