@@ -31,7 +31,7 @@ p {
 /*Create a menu using the class site-menu and different IDs*/
 .site-menu {
     overflow: hidden;
-    background-color: #0FF;
+    background-color:#FFF;
     top:0;
     width:100%;
     position:fixed;
