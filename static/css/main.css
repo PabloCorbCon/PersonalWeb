@@ -1,0 +1,62 @@
+body {
+    font-family: 'Poppins', sans-serif !important;
+    background-color: #1D1E28;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    border-top: 6px #0DA041 solid !important;
+    font-size: 16px;
+}
+
+.nav-link {
+     font-size: 14px !important;
+     background: transparent !important;
+     font-family: Lato, sans-serif !important;
+     text-transform: capitalize !important;
+ }
+ .nav-link:hover {
+     background: transparent !important;
+     color: #0DA041 !important;
+     font-weight: bold !important;
+ }
+
+ .login-btn {
+     border: 2px solid #0DA041 !important;
+     font-size: 10px !important;
+ }
+ .login-btn:hover {
+     background: #0DA041 !important;
+ }
+.navbar {
+    box-shadow: none !important
+}
+
+.navbar-brand {
+    font-size: 25px !important
+}
+
+.navbar-toggler-icon {
+    color: #fff !important
+}
+
+.btn {
+    border-radius: 10px !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+}
+
+.btn-primary {
+    background-color: #0DA041 !important;
+}
+
+.btn-primary:hover {
+    background-color: #F9F9F9 !important;
+    color: #0DA041 !important;
+}
+
+.btn-secondary {
+    background-color:#32323C !important;
+    color: #0DA041 !important;
+}
