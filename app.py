@@ -23,6 +23,21 @@ def contact():
 	"""
 	return render_template('contact.html', title='contact', cards=[2, 3, 4, 5, 6])
 
+@app.route('/error/400')
+@app.errorhandler(400)
+def error400(err=None):
+	"""
+	This handler error function is used to
+	create custom 400 error templates.
+	It uses the @app.errorhandler() decorator
+	to handle the error itself.
+	"""
+	e = {
+		'number':'400',
+		'description':'The request that this page has received is not valid. Perhaps your browser has been confused or you are using the wrong method to access this page.' 
+	}
+	return render_template('error.html', title='401', error=e), 400
+
 @app.route('/error/401')
 @app.errorhandler(401)
 def error401(err=None):
@@ -34,9 +49,24 @@ def error401(err=None):
 	"""
 	e = {
 		'number':'401',
-		'description':'We are sorry but you do not have authorization to access this page' 
+		'description':'We are sorry but you do not have authorization to access this page.' 
 	}
 	return render_template('error.html', title='401', error=e), 401
+
+@app.route('/error/403')
+@app.errorhandler(403)
+def error403(err=None):
+	"""
+	This handler error function is used to
+	create custom 403 error templates.
+	It uses the @app.errorhandler() decorator
+	to handle the error itself.
+	"""
+	e = {
+		'number':'403',
+		'description':'We are sorry but access to this page is prohibited. Contact an administrator to grant you access.' 
+	}
+	return render_template('error.html', title='401', error=e), 403
 
 @app.route('/error/404')
 @app.errorhandler(404)
