@@ -36,7 +36,7 @@ def error400(err=None):
 		'number':'400',
 		'description':'The request that this page has received is not valid. Perhaps your browser has been confused or you are using the wrong method to access this page.' 
 	}
-	return render_template('error.html', title='401', error=e), 400
+	return render_template('error.html', title='400', error=e), 400
 
 @app.route('/error/401')
 @app.errorhandler(401)
@@ -66,7 +66,7 @@ def error403(err=None):
 		'number':'403',
 		'description':'We are sorry but access to this page is prohibited. Contact an administrator to grant you access.' 
 	}
-	return render_template('error.html', title='401', error=e), 403
+	return render_template('error.html', title='403', error=e), 403
 
 @app.route('/error/404')
 @app.errorhandler(404)
@@ -83,8 +83,20 @@ def error404(err=None):
 	}
 	return render_template('error.html', title='404', error=e), 404
 
-
-
+@app.route('/error/500')
+@app.errorhandler(500)
+def error500(err=None):
+	"""
+	This handler error function is used to
+	create custom 500 error templates.
+	It uses the @app.errorhandler() decorator
+	to handle the error itself.
+	"""
+	e = {
+		'number':'500',
+		'description':'Do not worry, this error is not your fault. There has been an internal error on our server. We are trying to fix it.' 
+	}
+	return render_template('error.html', title='500', error=e), 500
 
 
 if __name__ == '__main__':
