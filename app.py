@@ -6,6 +6,7 @@ app = Flask(__name__)
 @app.route('/')
 def home():
 	return render_template('home.html')
+	
 @app.route('/contact')
 def contact():
 	return render_template('contact.html', title='contact', cards=[2, 3, 4, 5, 6])
