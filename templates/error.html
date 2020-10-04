@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<div id="error">
+	<div class="error">
+		<div class="error-label">
+			<span class="open-sans tera ls-xlarge bold">{{ error.number }}</span><br>
+		</div>
+		<span class="epsilon ls-medium">{{ error.description }}</span>
+		<br><br>
+		<a href="/" class="button-text">Home page</a>
+	</div>
+</div>
+{% endblock body %}
