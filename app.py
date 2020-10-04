@@ -13,15 +13,6 @@ def home():
 	:parameters None:
 	"""
 	return render_template('home.html')
-	
-@app.route('/contact')
-def contact():
-	"""
-	This is the contact page of the app, it uses the
-	render_template() function to return the contacts.html
-	HTML template.
-	"""
-	return render_template('contact.html', title='contact', cards=[2, 3, 4, 5, 6])
 
 @app.route('/error/400')
 @app.errorhandler(400)
