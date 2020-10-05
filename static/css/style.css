@@ -210,6 +210,7 @@ section:nth-of-type(8){
  @media screen and (min-width: 1440px) {
    section{height:700px}
  }
+
  #error {
   position: relative;
   height: 100vh;
