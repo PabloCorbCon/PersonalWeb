@@ -1,0 +1,14 @@
+{
+  "icons":[
+    {
+      "alt": "Twitter",
+      "link": "https://twitter.com/pablocorbcon",
+      "url": "twitter"
+    },
+    {
+      "tag":"/PabloCorbCon",
+      "name":"GitHub",
+      "link":"https://github.com/PabloCorbCon"
+    },
+  ]
+}

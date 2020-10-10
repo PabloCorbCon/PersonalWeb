@@ -9,4 +9,9 @@
      <a class="button-text" href="/contact">Contact</a>
   </div>
 </section>
+<div class="social-icons">
+  {% for icon in icons %}
+    <li><a href="{{ icon.url }}"><img alt="{{ icon.alt }}" src="{{ url_for('static', filename='images/logos/' + icon.route + '.svg') }}"/></a></li>
+  {% endfor %}
+</div>
 {% endblock content %}

@@ -1,5 +1,6 @@
 #import Flask
 from flask import Flask, render_template, url_for, redirect
+from json_db.load import load_contacs
 
 app = Flask(__name__)
 
@@ -12,7 +13,7 @@ def home():
 
 	:parameters None:
 	"""
-	return render_template('home.html')
+	return render_template('home.html', icons=load_contacs())
 
 @app.route('/error')
 def error():
