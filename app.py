@@ -25,7 +25,7 @@ def error400(err=None):
 	"""
 	e = {
 		'number':'400',
-		'description':'The request that this page has received is not valid. Perhaps your browser has been confused or you are using the wrong method to access this page.' 
+		'description':'The request that this page has received is not valid. Perhaps your browser has been confused or you are using the wrong method to access this page.'
 	}
 	return render_template('error.html', title='400', error=e), 400
 
@@ -40,7 +40,7 @@ def error401(err=None):
 	"""
 	e = {
 		'number':'401',
-		'description':'We are sorry but you do not have authorization to access this page.' 
+		'description':'We are sorry but you do not have authorization to access this page.'
 	}
 	return render_template('error.html', title='401', error=e), 401
 
@@ -55,7 +55,7 @@ def error403(err=None):
 	"""
 	e = {
 		'number':'403',
-		'description':'We are sorry but access to this page is prohibited. Contact an administrator to grant you access.' 
+		'description':'We are sorry but access to this page is prohibited. Contact an administrator to grant you access.'
 	}
 	return render_template('error.html', title='403', error=e), 403
 
@@ -70,7 +70,7 @@ def error404(err=None):
 	"""
 	e = {
 		'number':'404',
-		'description':'We could not find the page you are looking for, perhaps you have misspelled the link or the page is private.' 
+		'description':'We could not find the page you are looking for, perhaps you have misspelled the link or the page is private.'
 	}
 	return render_template('error.html', title='404', error=e), 404
 
@@ -85,7 +85,7 @@ def error500(err=None):
 	"""
 	e = {
 		'number':'500',
-		'description':'Do not worry, this error is not your fault. There has been an internal error on our server. We are trying to fix it.' 
+		'description':'Do not worry, this error is not your fault. There has been an internal error on our server. We are trying to fix it.'
 	}
 	return render_template('error.html', title='500', error=e), 500
 
