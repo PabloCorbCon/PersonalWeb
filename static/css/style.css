@@ -3,10 +3,10 @@
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
-  box-sizing: inherit;
-}
 
+* {
+  box-sizing: border-box;
+}
 /* Basically just a bunch of typeface classes, some helper classes(letter-spacing, font-weight, etc.), decorative classes(line-on-headers, double-lines, etc). Three types of bg, image, gradient and solid color. I do this for testing headings/hero-image typography. Now there are ten presets here, but you can mix everything. I know that this brings to classivitis, but I still didn't dwelved into Saas, it is next on my learning roadmap, but I will create a fork soon with Saas and variables. */
 
 
@@ -94,6 +94,8 @@ p{
   font-size: 1rem; /* 18 = 18 × 1 */
   margin-bottom: 1.65rem;
 }
+
+.up {text-transform: uppercase;}
 /* ==== Typefaces  ==== */
 
 .open-sans{font-family: 'Open Sans';}
@@ -206,7 +208,49 @@ section:nth-of-type(8){
   background-color: rgba(0,0,0,0.85);
   color:#fff;
 }
-/*=========================0==SOCIAL MEDIA ICONS===========================*/
+/*===================================CARDS=====================================*/
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 33.333333333333333333%;
+  padding: 0 10px;
+}
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.bg-grey {
+  background-color: rgba(0,0,0,0.5);
+}
+/* Style the counter cards */
+.card {
+  margin: 0.3rem 0.25rem 0.3rem 0.25rem;
+  padding: 16px;
+  text-align: center;
+  border-radius: 18px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid #fff;
+}
+.card img {
+  width: 100%;
+  border-radius: 18px;
+}
+.card .name {
+   padding-top: 10px;
+}
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+/*============================SOCIAL MEDIA ICONS===========================*/
 .social-icons {
   padding-top: 1rem;
   text-align: center;
@@ -231,6 +275,7 @@ section:nth-of-type(8){
    section{height:700px}
  }
 
+/*==================================================ERRORS=========================*/
  #error {
   position: relative;
   height: 100vh;

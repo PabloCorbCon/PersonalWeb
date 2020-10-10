@@ -12,6 +12,14 @@ def home():
 
 	:parameters None:
 	"""
+	projects = [
+		{
+			'image': 'https://raw.githubusercontent.com/PabloCorbCon/prodify/main/src/static/images/logo.png',
+			'name': 'prodify',
+			'description':' Prodify is a web page created by students for students for the October 2020 Tech with Tim code jam.',
+			'code':' https://github.com/PabloCorbCon/prodify'
+		}
+	]
 	icons = [
 		{
 			'url':'https://twitter.com/pablocorbcon',
@@ -34,7 +42,7 @@ def home():
 			'route':'telegram'
 		}
 	]
-	return render_template('home.html', icons=icons)
+	return render_template('home.html', projects=projects, icons=icons)
 
 @app.route('/error')
 def error():
