@@ -1,6 +1,5 @@
 #import Flask
 from flask import Flask, render_template, url_for, redirect
-from json_db.load import load_contacs
 
 app = Flask(__name__)
 
@@ -13,7 +12,29 @@ def home():
 
 	:parameters None:
 	"""
-	return render_template('home.html', icons=load_contacs())
+	icons = [
+		{
+			'url':'https://twitter.com/pablocorbcon',
+			'alt':'twitter',
+			'route':'twitter'
+		},
+		{
+			'url':'https://github.com/PabloCorbCon',
+			'alt':'github',
+			'route':'github'
+		},
+		{
+			'url':'https://www.youtube.com/channel/UCYawvF7GUx2eo2QUbtfdtAg',
+			'alt':'youtube',
+			'route':'youtube'
+		},
+		{
+			'url':'https://t.me/pablocorbcon',
+			'alt':'telegram',
+			'route':'telegram'
+		}
+	]
+	return render_template('home.html', icons=icons)
 
 @app.route('/error')
 def error():

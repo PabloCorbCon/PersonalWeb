@@ -185,13 +185,13 @@ section:nth-of-type(3n+1){
   background-size: cover;
 }
 section:nth-of-type(8){
-  
+
   background: -webkit-linear-gradient(90deg, #485563 10%, #29323c 90%); /* Chrome 10+, Saf5.1+ */
   background:    -moz-linear-gradient(90deg, #485563 10%, #29323c 90%); /* FF3.6+ */
   background:     -ms-linear-gradient(90deg, #485563 10%, #29323c 90%); /* IE10 */
   background:      -o-linear-gradient(90deg, #485563 10%, #29323c 90%); /* Opera 11.10+ */
   background:         linear-gradient(90deg, #485563 10%, #29323c 90%); /* W3C */
-        
+
 }
 .button-text {
   text-decoration: none;
@@ -206,6 +206,26 @@ section:nth-of-type(8){
   background-color: rgba(0,0,0,0.85);
   color:#fff;
 }
+/*=========================0==SOCIAL MEDIA ICONS===========================*/
+.social-icons {
+  padding-top: 1rem;
+  text-align: center;
+}
+.social-icons li {
+  display:inline-block;
+  list-style-type:none;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+}
+.social-icons li a {
+  border-bottom: none;
+}
+.social-icons li img {
+  width:50px;
+  height:50px;
+  margin-right: 20px;
+}
+
 /* Media queries */
  @media screen and (min-width: 1440px) {
    section{height:700px}
