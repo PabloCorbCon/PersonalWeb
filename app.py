@@ -1,5 +1,5 @@
 #import Flask
-from flask import Flask, render_template, url_for
+from flask import Flask, render_template, url_for, redirect
 
 app = Flask(__name__)
 
@@ -13,6 +13,14 @@ def home():
 	:parameters None:
 	"""
 	return render_template('home.html')
+
+@app.route('/error')
+def error():
+	"""
+	There is not an specific error page, this route redirects to
+	the home page
+	"""
+	return redirect(url_for('home'))
 
 @app.route('/error/400')
 @app.errorhandler(400)
