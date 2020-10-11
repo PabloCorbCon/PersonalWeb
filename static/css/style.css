@@ -212,57 +212,7 @@ section:nth-of-type(8){
   background-color: rgba(0,0,0,0.85);
   color:#fff;
 }
-/*===================================CARDS=====================================*/
-/* Float four columns side by side */
-.column {
-  float: left;
-  width: 33.333333333333333333%;
-  padding: 0 10px;
-}
-/* Remove extra left and right margins, due to padding in columns */
-.row {margin: 0 -5px;}
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.bg-grey {
-  background-color: rgba(0,0,0,0);
-}
-/* Style the counter cards */
-.card {
-  margin: 0.3rem 0.25rem 0.3rem 0.25rem;
-  padding: 16px;
-  text-align: center;
-  border-radius: 18px;
-  background-color: rgba(255, 255, 255, 0.2);
-  box-shadow: 1px 1px 1px 1px;
-}
-.card:hover {
-  box-shadow: 2px 2px 2px 2px;
-}
-.card img {
-  width: 100%;
-  border-radius: 18px;
-}
-.name{
-  padding: 10px 0px 0px 0px;
-  color: rgba(0,0,0,0.7);
-  font-size: 1.3rem;
-}
-.project-description {
-  font-size: 0.9rem;
-  color: rgba(0,0,0,0.55);
-}
-/* Responsive columns - one column layout (vertical) on small screens */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-}
+
 /*============================SOCIAL MEDIA ICONS===========================*/
 .social-icons {
   padding-top: 1rem;
