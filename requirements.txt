@@ -1,5 +1,4 @@
 appdirs==1.4.4
-apturl==0.5.2
 bcrypt==3.1.7
 blinker==1.4
 Brlapi==0.7.0
@@ -80,6 +79,5 @@ usb-creator==0.3.7
 virtualenv==20.0.33
 virtualenv-clone==0.5.4
 wadllib==1.3.3
-Werkzeug==1.0.1
+Werkzeug==1.0
 WTForms==2.3.3
-xkit==0.0.0
