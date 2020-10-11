@@ -10,16 +10,19 @@
   </div>
 </section>
 <div class="bg-grey">
-  <div class="container">
-    <div class="row">
-      {% for project in projects %}
-      <div class="column">
-        <div class="card">
-          <img src="{{ project.image }}" alt="{{ project.name }}">
-          <h2 class="up name">{{ project.name }}</h2>
-      </div>
-      {% endfor %}
-      </div>
+    <div class="container">
+      <div class="row">
+        {% for project in projects %}
+        <div class="column">
+            <div class="card">
+                <a href="{{ project.code }}" target="_blank">
+                  <img src="{{ project.image }}" alt="{{ project.name }}">
+                  <h2 class="up name">{{ project.name }}</h2>
+                  <p class="project-description">{{ project.description }}</p>
+                </a>
+            </div>
+        </div>
+        {% endfor %}
     </div>
   </div>
 </div>

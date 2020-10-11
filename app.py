@@ -18,6 +18,18 @@ def home():
 			'name': 'prodify',
 			'description':' Prodify is a web page created by students for students for the October 2020 Tech with Tim code jam.',
 			'code':' https://github.com/PabloCorbCon/prodify'
+		},
+		{
+			'image': 'https://raw.githubusercontent.com/pythonmurcia/gitcollab/master/branding/logo.png',
+			'name': 'gitcollab',
+			'description':' GitCollab is a web page I presented from Python Murcia to the HacktoberfestES 2020.',
+			'code':' https://github.com/pythonmurcia/gitcollab'
+		},
+		{
+			'image': 'https://raw.githubusercontent.com/PabloCorbCon/Taur/master/branding/grey-logo.png',
+			'name': 'Taur',
+			'description':'Taur is a multifunctional discord bot I created using the discord.py library. I am still working on it.',
+			'code':' https://github.com/PabloCorbCon/prodify'
 		}
 	]
 	icons = [

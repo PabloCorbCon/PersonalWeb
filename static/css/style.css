@@ -43,10 +43,14 @@ h6 {
   position: relative;
 }
 p{
-  margin-top: 4rem;
+  text-decoration: none !important;
+  margin-top: 0.7rem;
   color: #fff;
   font-size: 0.9rem;
   line-height: 1
+}
+a {
+  text-decoration: none !important;
 }
 .gigantic{font-size: 11rem;}
 .supersize{font-size: 8rem;}
@@ -224,7 +228,7 @@ section:nth-of-type(8){
   clear: both;
 }
 .bg-grey {
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0);
 }
 /* Style the counter cards */
 .card {
@@ -232,15 +236,24 @@ section:nth-of-type(8){
   padding: 16px;
   text-align: center;
   border-radius: 18px;
-  background-color: rgba(255, 255, 255, 0);
-  border: 2px solid #fff;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 1px 1px 1px 1px;
+}
+.card:hover {
+  box-shadow: 2px 2px 2px 2px;
 }
 .card img {
   width: 100%;
   border-radius: 18px;
 }
-.card .name {
-   padding-top: 10px;
+.name{
+  padding: 10px 0px 0px 0px;
+  color: rgba(0,0,0,0.7);
+  font-size: 1.3rem;
+}
+.project-description {
+  font-size: 0.9rem;
+  color: rgba(0,0,0,0.55);
 }
 /* Responsive columns - one column layout (vertical) on small screens */
 @media screen and (max-width: 600px) {
