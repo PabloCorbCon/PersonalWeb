@@ -130,11 +130,15 @@ a {
 /* ==== General styles ==== */
  #bg {
   position: relative;
-  height: 100vh;
+  height: 93vh;
   background: #6CFCA4;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #6CFCA4, #B4FCD4);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #6CFCA4, #B4FCD4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+@media only screen and (max-width: 720px) {#bg {height: 91vh;}}
+@media only screen and (max-width: 420px) {#bg {height: 90vh;}}
+@media only screen and (max-width: 360px) {#bg {height: 89vh;}}
 
 #bg .bg {
   position: absolute;
