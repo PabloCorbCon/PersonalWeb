@@ -1,0 +1,63 @@
+/*==================================================ERRORS=========================*/
+ #error {
+  position: relative;
+  height: 100vh;
+  background: #6CFCA4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6CFCA4, #B4FCD4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6CFCA4, #B4FCD4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#error .error {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.error {
+  max-width: 460px;
+  width: 100%;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.error .error-label {
+  height: 158px;
+  line-height: 153px;
+}
+
+.error .error-label h1 {
+  font-family: 'Lato', sans-serif;
+  color: #222;
+  font-size: 9.5rem;
+  letter-spacing: 10px;
+  margin: 0px 0px 40px 0px;
+  font-weight: 700;
+  text-shadow: 2px 2px 0px #c9c9c9, -2px -2px 0px #c9c9c9;
+}
+
+.error .error-label h1>span {
+  text-shadow: 2px 2px 0px #ffab00, -2px -2px 0px #ffab00, 0px 0px 8px #ff8700;
+}
+
+.error p {
+  font-family: 'Lato', sans-serif;
+  color: #c9c9c9;
+  font-size: 1.3rem;
+  font-weight: 450;
+  margin-top: 10%;
+  margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 480px) {
+  .error .error-label {
+    height: 122px;
+    line-height: 122px;
+  }
+
+  .error .error-label h1 {
+      font-size: 122px;
+  }
+}

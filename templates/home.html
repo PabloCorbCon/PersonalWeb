@@ -1,17 +1,13 @@
 {% extends "main.html" %}
 
 {% block content %}
-<section data-description="@pablocorbcon">
-  <div class="wrapper">
-     <span class="open-sans tera ls-xlarge bold">Pablo Corbalán</span><br>
-     <span class="epsilon ls-medium">Python developer at Murcia, Spain.</span>
-     <br><br><br><br><br>
-     <a class="button-text" href="/contact">Contact</a>
+<div class="bg">
+  <h1>Pablo Corbalán</h1>
+  <p>Python Developer in Murcia, Spain</p>
+  <div class="social-icons">
+    {% for icon in icons %}
+      <li><a href="{{ icon.url }}"><img alt="{{ icon.alt }}" src="{{ url_for('static', filename='images/logos/' + icon.route + '.svg') }}"/></a></li>
+    {% endfor %}
   </div>
-</section>
-<div class="social-icons">
-  {% for icon in icons %}
-    <li><a href="{{ icon.url }}"><img alt="{{ icon.alt }}" src="{{ url_for('static', filename='images/logos/' + icon.route + '.svg') }}"/></a></li>
-  {% endfor %}
 </div>
 {% endblock content %}
