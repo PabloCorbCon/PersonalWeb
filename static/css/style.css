@@ -30,15 +30,10 @@ html {
     -o-font-feature-settings: "liga", "dlig";
     font-feature-settings: "liga", "dlig";
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
   line-height: 1;
   margin-top: 0;
-  color: #fff;
+  color: #2e2e2e;
   display: inline-block;
   position: relative;
 }
@@ -54,40 +49,13 @@ a {
 }
 .gigantic{font-size: 11rem;}
 .supersize{font-size: 8rem;}
-.tera {
-  font-size: 6.5rem; /* 117 / 18 = 6.5 */
-  margin-bottom: 0.25385rem;
-}
-
-.giga {
-  font-size: 5rem; /* 90 / 18 = 5 */
-  margin-bottom: 0.33rem;
-}
-
-.mega {
-  font-size: 4rem; /* 72 / 18 = 4 */
-  margin-bottom: 0.4125rem;
-}
-
-.alpha {
-  font-size: 3.33333rem; /* 60 / 18 = 3.3333 */
-  margin-bottom: 0.495rem;
-}
-
-.beta {
-  font-size: 2.6667rem; /* 48 / 18 = 2.6667 */
-  margin-bottom: 0.61875rem;
-}
-
-.gamma {
-  font-size: 2rem; /* 36 / 18 = 2 */
-  margin-bottom: 0.825rem;
-}
-
-.delta {
-  font-size: 1.3333333333333333rem; /* 24 / 18 = 1.3333 */
-  margin-bottom: 1.2375rem;
-}
+.tera {font-size: 6.5rem; /* 117 / 18 = 6.5 */margin-bottom: 0.25385rem;}
+.giga {font-size: 5rem; /* 90 / 18 = 5 */margin-bottom: 0.33rem;}
+.mega {font-size: 4rem; /* 72 / 18 = 4 */margin-bottom: 0.4125rem;}
+.alpha {font-size: 3.33333rem; /* 60 / 18 = 3.3333 */margin-bottom: 0.495rem;}
+.beta {font-size: 2.6667rem; /* 48 / 18 = 2.6667 */margin-bottom: 0.61875rem;}
+.gamma {font-size: 2rem; /* 36 / 18 = 2 */margin-bottom: 0.825rem;}
+.delta {font-size: 1.3333333333333333rem; /* 24 / 18 = 1.3333 */margin-bottom: 1.2375rem;}
 .epsilon {font-size: 1.16667rem; /* 21 / 18 = 1.1667 */margin-bottom: 1.41429rem;}
 .zeta {font-size: 1rem; /* 18 = 18 × 1 */margin-bottom: 1.65rem;}
 
@@ -160,16 +128,71 @@ a {
 }
 
 /* ==== General styles ==== */
-.header {
-    padding: 2em;
-    text-align: center;
-    background: #6CFCA4;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #6CFCA4, #B4FCD4);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #6CFCA4, #B4FCD4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: rgba(0,0,0,1);
-    font-size: 4;
+ #bg {
+  position: relative;
+  height: 100vh;
+  background: #6CFCA4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6CFCA4, #B4FCD4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6CFCA4, #B4FCD4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+#bg .bg {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.bg {
+  max-width: 460px;
+  width: 100%;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.bg .title {
+  color: #121212;
+  height: 158px;
+  line-height: 153px;
+}
+
+.bg .title h1 {
+  font-family: 'Lato', sans-serif;
+  color: #222;
+  letter-spacing: 10px;
+  margin: 0px 0px 0px 0px;
+  font-weight: 700;
+  text-shadow: 2px 2px 0px #c9c9c9, -2px -2px 0px #c9c9c9;
+}
+
+.bg.title h1 {
+  text-shadow: 2px 2px 0px #ffab00, -2px -2px 0px #ffab00, 0px 0px 8px #ff8700;
+}
+
+.bg p {
+  font-family: 'Lato', sans-serif;
+  color: #404040;
+  font-size: 1.3rem;
+  font-weight: 450;
+  margin-top: 10%;
+  margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 480px) {
+  .bg .title {
+    height: 122px;
+    line-height: 122px;
+  }
+
+  .bg .title h1 {
+      font-size: 122px;
+  }
+  .tera {
+    font-size: 3.1em !important;
+  }
+}
 /*============================SOCIAL MEDIA ICONS===========================*/
 .social-icons {
   padding-top: 1rem;

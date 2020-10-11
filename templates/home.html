@@ -1,13 +1,15 @@
 {% extends "main.html" %}
 
 {% block content %}
-<div class="bg">
-  <h1>Pablo Corbalán</h1>
-  <p>Python Developer in Murcia, Spain</p>
-  <div class="social-icons">
-    {% for icon in icons %}
-      <li><a href="{{ icon.url }}"><img alt="{{ icon.alt }}" src="{{ url_for('static', filename='images/logos/' + icon.route + '.svg') }}"/></a></li>
-    {% endfor %}
-  </div>
+<div id="bg">
+	<div class="bg">
+    <h1 class="tera">Pablo Corbalán</h1>
+    <p>Python Developer in Murcia, Spain</p>
+    <div class="social-icons">
+      {% for icon in icons %}
+        <li><a href="{{ icon.url }}"><img alt="{{ icon.alt }}" src="{{ url_for('static', filename='images/logos/' + icon.route + '.svg') }}"/></a></li>
+      {% endfor %}
+    </div>
+	</div>
 </div>
 {% endblock content %}
