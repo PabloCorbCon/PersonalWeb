@@ -34,7 +34,7 @@ python3 app.py
 ```
 
 ### License
-This page is under the Apache 2.0 [LICENSE](https://github.com/PabloCorbCon/userfind/blob/master/LICENSE).
+This page is under the Apache 2.0 [LICENSE](https://github.com/PabloCorbCon/personal-web/blob/master/LICENSE).
 ```
 Copyright 2020 Python Murcia
 
