@@ -36,6 +36,10 @@ def home():
 	]
 	return render_template('home.html', icons=icons)
 
+@app.route('/app')
+def application():
+    return render_template('app.html')
+
 @app.route('/error')
 def error():
 	"""
