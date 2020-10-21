@@ -36,8 +36,8 @@ def home():
 	]
 	return render_template('home.html', icons=icons)
 
-@app.route('/app')
-def application():
+@app.route('/more')
+def read_more():
     return render_template('app.html')
 
 @app.route('/error')

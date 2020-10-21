@@ -1,25 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400|Playfair+Display:400,700,400italic|Libre+Baskerville:400,700,400italic|Muli:300,400|Open+Sans:400,300,700|Oswald:400,700|Raleway:400,100,300,700|Montserrat:400,700|Merriweather:400,300,300italic,400italic,700|Bree+Serif|Vollkorn:400italic,400,700|Abril+Fatface|Cardo:400,400italic);
 
-html {
-  box-sizing: border-box;
-}
-
-* {
-  box-sizing: border-box;
-}
-/* Basically just a bunch of typeface classes, some helper classes(letter-spacing, font-weight, etc.), decorative classes(line-on-headers, double-lines, etc). Three types of bg, image, gradient and solid color. I do this for testing headings/hero-image typography. Now there are ten presets here, but you can mix everything. I know that this brings to classivitis, but I still didn't dwelved into Saas, it is next on my learning roadmap, but I will create a fork soon with Saas and variables. */
-
-
-/* Preset 1 ---- Bold/cursive  */
-/* Preset 2 ---- Thin/bold  */
-/* Preset 3 ---- Add emphasis with color */
-/* Preset 4 ---- Thin/Super bold/thin */
-/* Preset 5 ---- Playing with serifs */
-/* Preset 6 ---- Super contrast */
-/* Preset 7 ---- Vertical text */
-/* Preset 8 ---- Playful type */
-/* Preset 9 ---- Middle flourish */
-/* Preset 10 ---- Overlay text */
+html {box-sizing: border-box;}
+* {box-sizing: border-box;}
 
 /* ==== Font sizes(based on Typeplate's scale) ==== */
 html {
@@ -96,6 +78,7 @@ a {
 .line-height-medium{line-height: 1.45}
 .line-height-large{line-height: 1.65}
 
+.rounded {border-radius: 18px !important;}
 /* ===== NavVar style and nav logo style ==== */
 .navbar {
   background: #6CFCA4;  /* fallback for old browsers */
@@ -196,6 +179,11 @@ a {
   .tera {
     font-size: 3.1em !important;
   }
+}
+/*=============================BTNS==============================*/
+.btn-read-more {
+  padding: 15px 40px;
+  margin: 25px 0px 14px 0px;
 }
 /*============================SOCIAL MEDIA ICONS===========================*/
 .social-icons {

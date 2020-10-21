@@ -8,7 +8,7 @@
 		</div>
 		<span class="epsilon ls-medium">{{ error.description }}</span>
 		<br><br>
-		<a href="/" class="btn btn-dark">Home page</a>
+		<a href="{{ url_for('home') }}" class="btn btn-dark rounded">Home page</a>
 	</div>
 </div>
 {% endblock body %}
