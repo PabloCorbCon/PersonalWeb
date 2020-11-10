@@ -24,21 +24,12 @@ def home():
 			'route':'github'
 		},
 		{
-			'url':'https://www.youtube.com/channel/UCYawvF7GUx2eo2QUbtfdtAg',
-			'alt':'youtube',
-			'route':'youtube'
-		},
-		{
 			'url':'https://t.me/pablocorbcon',
 			'alt':'telegram',
 			'route':'telegram'
 		}
 	]
 	return render_template('home.html', icons=icons)
-
-@app.route('/more')
-def read_more():
-    return render_template('app.html')
 
 @app.route('/error')
 def error():

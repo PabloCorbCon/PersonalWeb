@@ -5,7 +5,6 @@
 	<div class="bg">
     <h1 class="tera">Pablo Corbalán</h1>
     <p>Python Developer in Murcia, Spain</p>
-		<a href="{{ url_for('read_more') }}" class="btn btn-dark rounded btn-read-more">Read More<a>
     <div class="social-icons">
       {% for icon in icons %}
         <li><a href="{{ icon.url }}"><img alt="{{ icon.alt }}" src="{{ url_for('static', filename='images/logos/' + icon.route + '.svg') }}"/></a></li>
