@@ -19,7 +19,7 @@ def home():
 			'route':'twitter'
 		},
 		{
-			'url':'https://github.com/PabloCorbCon',
+			'url':'https://github.com/pblcc',
 			'alt':'github',
 			'route':'github'
 		},
